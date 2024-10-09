@@ -1,12 +1,4 @@
-# About Me
-
-Greetings! I'm Akanksha M Rajak, a passionate mathematician and AI researcher at the intersection of pure mathematics and cutting-edge data science. My journey in the world of numbers and algorithms has been nothing short of exhilarating, and I'm thrilled to share it with you.
-
-## Academic Journey
-
-My love affair with mathematics began early, but it truly blossomed during my master's degree at the prestigious Indian Institute of Technology (IIT) Kanpur. There, I delved deep into the abstract realms of pure mathematics, honing my analytical skills and developing a rigorous approach to problem-solving.
-
-However, the rapidly evolving field of data science beckoned, promising exciting applications of mathematical concepts in the real world. This led me to the Computational and Data Sciences (CDS) department at the Indian Institute of Science (IISc) Bangalore, where I embarked on my doctoral journey.
+Greetings! I am Akanksha M Rajak, a dedicated mathematician and AI researcher who thrives at the intersection of pure mathematics and modern data science. My academic journey, marked by a master's from IIT Kanpur where I developed a strong foundation in pure mathematics, has been fueled by a passion for exploring the potential of mathematical concepts in real-world applications. My passion fueled my decision to embark on a doctoral journey in the Computational and Data Sciences department at IISc Bangalore under the mentorship of my advisor, Dr. Deepak Subramani.
 
 ## Research Focus
 
