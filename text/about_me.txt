@@ -1,2 +1,9 @@
-<!-- about_me.txt -->
-I am pursuing a Ph.D. under Dr. Deepak Subramani in the Computational and Data Sciences Department, IISc Bangalore. My research focuses on Topological Data Analysis (TDA), combining pure mathematical concepts from topology with the analysis of high-dimensional data. I have a keen interest in mathematics, especially Analysis and Topology. In my Masters, I did a course in Knot Theory and its applications taught by Dr. Aparna Dar. That course got me interested in Knot Theory, a concept in algebraic topology that has found applications to a variety of mathematical problems as well as to problems in mathematical physics, biological and medical research, and computer science.
+I am pursuing a Ph.D. under Dr. Deepak Subramani in the Computational and
+Data Sciences Department, IISc Bangalore. My research focuses on Topological
+Data Analysis (TDA), combining pure mathematical concepts from topology with 
+the analysis of high-dimensional data. I have a keen interest in mathematics, 
+especially Analysis and Topology. In my Masters, I did a course in Knot Theory 
+and its applications taught by Dr. Aparna Dar. That course got me interested in 
+Knot Theory, a concept in algebraic topology that has found applications to a 
+variety of mathematical problems as well as to problems in mathematical physics,
+biological and medical research, and computer science.
