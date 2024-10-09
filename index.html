@@ -1,158 +1,123 @@
-
-<html>
-<title>Akanksha Rajak</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<body class="w3-content" style="max-width:1400px">
-
-<!-- First Grid: Logo & About -->
-<div class="w3-row">
-  <div class="w3-half w3-black w3-container w3-center" style="height:700px">
-    <div class="w3-padding-60">
-      <h1>Akanksha M Rajak</h1>
-      <p class="w3-text-grey">Research Scholar</p>
-      <img src="https://raw.githubusercontent.com/amrajak/webpage/main/image/akanksha_rajak.png" class="w2-margin w3-circle" alt="Person" style="width:30%">
-      <a href="#" class="w3-button w3-black w3-block w3-hover-blue-grey w3-padding-16">Home</a>
-      <a href="#work" class="w3-button w3-black w3-block w3-hover-teal w3-padding-16">Work Experience</a>
-      <a href="#work" class="w3-button w3-black w3-block w3-hover-dark-grey w3-padding-16">Education</a>
-      <a href="#contact" class="w3-button w3-black w3-block w3-hover-brown w3-padding-16">Skills</a>
-      <a href="#contact" class="w3-button w3-black w3-block w3-hover-teal w3-padding-16">Contact</a>
-    </div>
-  </div>
-  <div class="w3-half w3-blue-grey w3-container" style="height:700px">
-    <div class="w3-padding-60 w3-center">
-      <h1>About Me</h1>
-
-      <div class="w3-left-align w3-padding-small">
-        <p>Hi! I am Akanksha, I am pursuing a Ph.D. under <a href="http://cds.iisc.ac.in/faculty/deepakns/" target="_blank">Dr. Deepak Subramani</a> in Computational and Data Sciences Department, IISc Bangalore. I have a keen interest in mathematics, especially Analysis and Topology. In my Masters, I did a course in Knot Theory and it's applications taught by Dr. Aparna Dar. That course got me interested in Knot Theory, it is a concept in the algebraic topology that has found applications to a variety of mathematical problems as well as to problems in mathematical physics, biological and medical research, and computer science. </p>
-        <p>From there I started exploring interdisciplinary departments and took admission to the CDS department in IISc Bangalore</p>
-        <p>At present, I am exploring Topological Data Analysis (TDA), which combines pure mathematical concepts from topology to the analysis of high dimensional data. </p>
-        <p>TDA is a valuable tool that is becoming increasingly popular with time. My work focuses on extracting features from data using TDA, which is an important task in the data mining process. Here Algebraic topology is being used. The main tool is called persistent homology, which is connecting homology to point cloud data. As data can be big enough we use Rips complex to deal with the data set. </p>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- Second Grid: Experience & Education -->
-<div class="w3-row">
-  <div class="w3-half w3-light-grey w3-center" style="min-height:800px" id="work">
-    <div class="w3-padding-60">
-      <h2>Work Experience</h2>
-      <p></p>
-      <br>
-      <p></p>
-      <div class="w3-center-align w3-padding-small">
-        <h4 class="w3-text-red">Teaching</h4>
-        <h5 class="w3-text-blue">Guest Lecturer-2018</h5>
-        <p>I was recruited as a guest lecturer in <a href="http://bietjhs.ac.in/" target="_blank"> BIET(Bundelkhand Institute of Engineering and Technology Jhansi)</a>. I was teaching engineering mathematics to 2nd-year students there.</p>
-        <br>
-        <p></p>
-        <br>
-        <p></p>
-        <h4 class="w3-text-red">Project</h4>
-        <h5 class="w3-text-blue">2018</h5>
-        <p>I worked on a project on Knot theory and it's applications, specifically Braids Representation of exchange of identical particles in two dimensions with <a href="http://www.phy.iitb.ac.in/en/employee-profile/p-ramadevi" target="_blank">Prof. P. Ramadevi</a>, Physics, IIT Bombay</p>
-        <h5 class="w3-text-blue">2017-2018</h5>
-        <p>I did a project on computable numbers under <a href="https://www.cse.iitk.ac.in/users/satyadev/" target="_blank"> Prof. Satyadev Nandakumar </a>, CSA, IIT Kanpur. The Project was on finding behavior of Darboux Functions in Computability  Theory  and  to  find  out  functions  that  are  not Markov Computable.</p>
-      </div>
-    </div>
-  </div>
-<!---       EDUCATION              -->
-  <div class="w3-half w3-indigo w3-container" style="min-height:800px">
-    <div class="w3-padding-60 w3-center">
-      <h2>Education</h2>
-
-      <div class="w3-container w3-responsive">
-        <div class="w3-container">
-          <a href="https://www.iisc.ac.in/" target="_blank">
-          <img border="0" alt="W3Schools" src="https://raw.githubusercontent.com/amrajak/webpage/main/image/iisc-white.png" width="54" height="42">
-
-          <h5 class="w3-opacity"><b>Indian Institute of Science, Bangalore, India</b></h5>
-          </a>
-          <h6 class="w3-text-black"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2019 - current</h6>
-          <p>Ph.D. in Computational and Data Sciences</p>
-          <hr>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akanksha M Rajak - PhD Scholar</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/alpinejs/2.3.0/alpine.js" defer></script>
+</head>
+<body class="bg-gray-100 font-sans leading-normal tracking-normal">
+    <nav x-data="{ open: false }" class="bg-gray-800 fixed w-full z-10 top-0">
+        <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
+            <div class="relative flex items-center justify-between h-16">
+                <div class="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
+                    <div class="flex-shrink-0 flex items-center">
+                        <span class="text-white text-xl font-bold">Akanksha M Rajak</span>
+                    </div>
+                    <div class="hidden sm:block sm:ml-6">
+                        <div class="flex space-x-4">
+                            <a href="#home" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Home</a>
+                            <a href="#cv" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">CV</a>
+                            <a href="#projects" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Projects</a>
+                            <a href="#teaching" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Teaching</a>
+                            <a href="#publications" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Publications</a>
+                            <a href="#contact" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Contact</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="w3-container">
-          <a href="https://www.iitk.ac.in" target="_blank">
-          <img border="0" alt="W3Schools" src="https://raw.githubusercontent.com/amrajak/webpage/main/image/iitk.png" width="50" height="50">
+    </nav>
 
-          <h5 class="w3-opacity"><b>Indian Institute of Technology Kanpur, India</b></h5>
-          </a>
-          <h6 class="w3-text-black"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2015 - 2017</h6>
-          <p>Master of Science in Mathematics</p>
-          <hr>
-        </div>
-        <div class="w3-container">
-          <a href="https://www.w3schools.com" target="_blank">
-          <img border="0" alt="W3Schools" src="https://raw.githubusercontent.com/amrajak/webpage/main/image/bu.png" width="50" height="50">
-          </a>
-          <h5 class="w3-opacity"><b>Bundelkhand University</b></h5>
-          <h6 class="w3-text-black"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2012 - 2015</h6>
-          <p>Bachelor of Science, major in Mathematics & Physics</p><br>
-      </div>
-    </div>
-  </div>
-</div>
-<!-- Third Grid: Swing By & Contact -->
-<div class="w3-row">
-  <div class="w3-half w3-hover-dark-grey w3-container w3-center" style="height:700px" id="contact">
-    <div class="w3-padding-64">
-      <h1>Skills</h1>
-      <p></p>
-    </div>
-    <div class="w3-row">
-      <div class="w3-half">
-        <img src="https://raw.githubusercontent.com/amrajak/webpage/main/image/py.png" class="w2-margin w3-circle" style="width:45%">
-      </div>
-      <div class="w3-half">
-        <img src="https://raw.githubusercontent.com/amrajak/webpage/main/image/mat.png" class="w2-margin w3-circle" style="width:15%">
-      </div>
-    </div>
-    <p></p>
-    <br>
-    <p></p>
-    <div class="w3-row w3-hide-small">
-      <div class="w3-half">
-        <img src="https://raw.githubusercontent.com/amrajak/webpage/main/image/r.png" class="w2-margin w3-circle" alt="Person" style="width:15%">
-      </div>
-      <div class="w3-half">
-        <img src="https://raw.githubusercontent.com/amrajak/webpage/main/image/tf.png" class="w2-margin w3-circle" alt="Person" style="width:15%">
-      </div>
-    </div>
-    <p></p>
-    <br>
-    <p></p>
+    <div class="container mx-auto mt-20 px-4">
+        <section id="home" class="my-16">
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/3">
+                    <img src="https://raw.githubusercontent.com/amrajak/webpage/main/image/akanksha_rajak.png" alt="Akanksha M Rajak" class="rounded-full w-48 h-48 object-cover mx-auto">
+                </div>
+                <div class="md:w-2/3 mt-8 md:mt-0">
+                    <h1 class="text-4xl font-bold mb-4">Akanksha M Rajak</h1>
+                    <p class="text-xl mb-4">PhD Scholar in Computational and Data Sciences</p>
+                    <p class="text-gray-700">
+                        I am pursuing a Ph.D. under <a href="http://cds.iisc.ac.in/faculty/deepakns/" target="_blank" class="text-blue-600 hover:text-blue-800">Dr. Deepak Subramani</a> in the Computational and Data Sciences Department, IISc Bangalore. My research focuses on Topological Data Analysis (TDA), combining pure mathematical concepts from topology with the analysis of high-dimensional data.
+                    </p>
+                </div>
+            </div>
+        </section>
 
-    <div class="w3-row w3-hide-small">
-      <div class="w3-half">
-        <img src="https://raw.githubusercontent.com/amrajak/webpage/main/image/html.png" class="w2-margin w3-circle" alt="Person" style="width:30%">
-      </div>
-      <div class="w3-half">
-        <img src="https://raw.githubusercontent.com/amrajak/webpage/main/image/latex.png" class="w2-margin w3-circle" alt="Person" style="width:30%">
-      </div>
-    </div>
-  </div>
-  <!-- CONTACT -->
-  <div class="w3-half w3-teal w3-container" style="height:700px" id="contact">
-    <div class="w3-padding-64 w3-padding-large">
-    <h3>Quick ID</h3>
-      <p>Email       : akankshamr@iisc.ac.in</p>
-      <p>Work Address: <a href="http://questlab.cds.iisc.ac.in/" target="_blank">QUEST Lab</a>, CDS Department, IISc Bangalore</p>
-      <p>Online presence:
-      <a href="https://www.linkedin.com/in/akanksha-rajak" target="_blank"><img border="0" alt="W3Schools" src="https://raw.githubusercontent.com/amrajak/webpage/main/image/in.png" width="20" height="20"></a>
-      <a href="https://github.com/amrajak" target="_blank"><img border="0" alt="W3Schools" src="https://raw.githubusercontent.com/amrajak/webpage/main/image/git.png" width="20" height="20"></a>
-      </p>
-      
-    </div>
-  </div>
-</div>
+        <section id="cv" class="my-16">
+            <h2 class="text-3xl font-bold mb-8">Curriculum Vitae</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div>
+                    <h3 class="text-2xl font-semibold mb-4">Education</h3>
+                    <ul class="list-disc list-inside">
+                        <li>Ph.D. in Computational and Data Sciences, Indian Institute of Science, Bangalore (2019 - present)</li>
+                        <li>M.S. in Mathematics, Indian Institute of Technology Kanpur (2015 - 2017)</li>
+                        <li>B.Sc. in Mathematics & Physics, Bundelkhand University (2012 - 2015)</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-2xl font-semibold mb-4">Skills</h3>
+                    <div class="flex flex-wrap gap-4">
+                        <img src="https://raw.githubusercontent.com/amrajak/webpage/main/image/py.png" alt="Python" class="w-12 h-12">
+                        <img src="https://raw.githubusercontent.com/amrajak/webpage/main/image/mat.png" alt="MATLAB" class="w-12 h-12">
+                        <img src="https://raw.githubusercontent.com/amrajak/webpage/main/image/r.png" alt="R" class="w-12 h-12">
+                        <img src="https://raw.githubusercontent.com/amrajak/webpage/main/image/tf.png" alt="TensorFlow" class="w-12 h-12">
+                        <img src="https://raw.githubusercontent.com/amrajak/webpage/main/image/html.png" alt="HTML" class="w-12 h-12">
+                        <img src="https://raw.githubusercontent.com/amrajak/webpage/main/image/latex.png" alt="LaTeX" class="w-12 h-12">
+                    </div>
+                </div>
+            </div>
+        </section>
 
-<!-- Footer -->
-<footer class="w3-container w3-black w3-padding-16">
-  <p> 2020 by Akanksha M Rajak</p>
-</footer>
+        <section id="projects" class="my-16">
+            <h2 class="text-3xl font-bold mb-8">Projects</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="bg-white rounded-lg shadow-md p-6">
+                    <h3 class="text-xl font-semibold mb-2">Topological Data Analysis in High-Dimensional Data</h3>
+                    <p class="text-gray-700">Exploring the application of TDA in extracting features from high-dimensional data sets, focusing on persistent homology and Rips complexes.</p>
+                </div>
+                <div class="bg-white rounded-lg shadow-md p-6">
+                    <h3 class="text-xl font-semibold mb-2">Knot Theory and Braid Representations</h3>
+                    <p class="text-gray-700">Studied the application of knot theory to the exchange of identical particles in two dimensions, under the guidance of Prof. P. Ramadevi, IIT Bombay.</p>
+                </div>
+                <div class="bg-white rounded-lg shadow-md p-6">
+                    <h3 class="text-xl font-semibold mb-2">Computable Numbers and Darboux Functions</h3>
+                    <p class="text-gray-700">Investigated the behavior of Darboux Functions in Computability Theory and functions that are not Markov Computable, supervised by Prof. Satyadev Nandakumar, IIT Kanpur.</p>
+                </div>
+            </div>
+        </section>
 
+        <section id="teaching" class="my-16">
+            <h2 class="text-3xl font-bold mb-8">Teaching Experience</h2>
+            <div class="bg-white rounded-lg shadow-md p-6">
+                <h3 class="text-xl font-semibold mb-2">Guest Lecturer (2018)</h3>
+                <p class="text-gray-700">Taught engineering mathematics to 2nd-year students at Bundelkhand Institute of Engineering and Technology, Jhansi.</p>
+            </div>
+        </section>
+
+        <section id="publications" class="my-16">
+            <h2 class="text-3xl font-bold mb-8">Publications</h2>
+            <p class="text-gray-700">Publications will be listed here as they become available.</p>
+        </section>
+
+        <section id="contact" class="my-16">
+            <h2 class="text-3xl font-bold mb-8">Contact</h2>
+            <div class="bg-white rounded-lg shadow-md p-6">
+                <p class="mb-2"><strong>Email:</strong> akankshamr@iisc.ac.in</p>
+                <p class="mb-2"><strong>Work Address:</strong> <a href="http://questlab.cds.iisc.ac.in/" target="_blank" class="text-blue-600 hover:text-blue-800">QUEST Lab</a>, CDS Department, IISc Bangalore</p>
+                <p class="mb-2"><strong>Online Presence:</strong></p>
+                <div class="flex space-x-4">
+                    <a href="https://www.linkedin.com/in/akanksha-rajak" target="_blank"><img src="https://raw.githubusercontent.com/amrajak/webpage/main/image/in.png" alt="LinkedIn" class="w-6 h-6"></a>
+                    <a href="https://github.com/amrajak" target="_blank"><img src="https://raw.githubusercontent.com/amrajak/webpage/main/image/git.png" alt="GitHub" class="w-6 h-6"></a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer class="bg-gray-800 text-white text-center py-4">
+        <p>&copy; 2024 Akanksha M Rajak. All rights reserved.</p>
+    </footer>
 </body>
 </html>
