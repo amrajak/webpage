@@ -1,9 +1,3 @@
-I am pursuing a Ph.D. under Dr. Deepak Subramani in the Computational and
-Data Sciences Department, IISc Bangalore. My research focuses on Topological
-Data Analysis (TDA), combining pure mathematical concepts from topology with 
-the analysis of high-dimensional data. I have a keen interest in mathematics, 
-especially Analysis and Topology. In my Masters, I did a course in Knot Theory 
-and its applications taught by Dr. Aparna Dar. That course got me interested in 
-Knot Theory, a concept in algebraic topology that has found applications to a 
-variety of mathematical problems as well as to problems in mathematical physics,
-biological and medical research, and computer science.
+Hello, I am a Mathematician and AI researcher. I completed my master's degree in mathematics from IIT Kanpur and later joined the CDS department at IISC Bangalore to dive into research in data science.
+Throughout my research journey, I have concentrated on utilizing various AI-ML techniques and statistical methods to enhance the accuracy of weather predictions such as the Monsoon Onset date. Our Monsoon Onset model successfully forecasts the Monsoon onset solely based on Sea Surface temperature with a lead time of 60 days and an error margin of just 2 days.
+Another aspect of my research involves Topological Data Analysis and Change Point detection methods to better understand the dynamics of the Monsoon.
